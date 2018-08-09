@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".showDetail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:layout_alignLeft="@+id/edtPrice"
+                android:layout_alignStart="@+id/edtPrice"
+                android:layout_below="@+id/edtPrice"
+                android:layout_marginEnd="21dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:background="#F0F3F6" />
+
+            <TextView
+                android:id="@+id/tName"
+                android:layout_width="344dp"
+                android:layout_height="31dp"
+                android:layout_alignLeft="@+id/edtName"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/edtName"
+                android:layout_marginEnd="21dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:text="ชื่อเมนู"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/tDetail"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignLeft="@+id/edtDetail"
+                android:layout_alignStart="@+id/edtDetail"
+                android:layout_below="@+id/edtName"
+                android:layout_marginEnd="21dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="22dp"
+                android:text="รายละเอียด"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/tPrice"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_alignLeft="@+id/edtStamp"
+                android:layout_alignStart="@+id/edtStamp"
+                android:layout_below="@+id/edtStamp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="ราคา"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/tStamp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_alignLeft="@+id/edtDetail"
+                android:layout_alignStart="@+id/edtDetail"
+                android:layout_below="@+id/edtDetail"
+                android:layout_marginEnd="21dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="24dp"
+                android:text="แต้ม"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
